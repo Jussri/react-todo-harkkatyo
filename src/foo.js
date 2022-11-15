@@ -19,10 +19,6 @@ function Foo() {
     setMediaItem(fooBar[index]); // <-- update media state when index updates
   }, [index]);
 
-  return (
-    <div>
-      <div>{mediaItem}</div>
-    </div>
-  );
+  return <div>{mediaItem}</div>;
 }
 export default Foo;

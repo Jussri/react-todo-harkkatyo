@@ -1,26 +1,27 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./App.css";
 
 function Navbar() {
   let navigate = useNavigate();
   return (
     <nav>
       <ul>
-        <li>
+        <div>
           <Link to="/">Home</Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <Link to="/second">Sec</Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <Link to="/third">Turd</Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <button onClick={() => navigate(-1)}>Back</button>
-        </li>
-        <li>
+        </div>
+        <div>
           <button onClick={() => navigate(+1)}>Next</button>
-        </li>
+        </div>
       </ul>
     </nav>
   );

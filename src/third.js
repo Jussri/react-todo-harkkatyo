@@ -1,16 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-function third() {
+function Third() {
   return (
-    <img
-      src="https://www.sketchappsources.com/resources/source-image/nyan-cat-artoctober.png"
-      alt="new"
-    />
+    <div>
+      <img
+        src="https://www.sketchappsources.com/resources/source-image/nyan-cat-artoctober.png"
+        alt="new"
+      />
+    </div>
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<third />, rootElement);
-
-export default third;
+export default Third;
