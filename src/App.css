@@ -12,7 +12,8 @@ nav {
   background-color: #438802;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .myDiv {
@@ -32,7 +33,7 @@ nav {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
