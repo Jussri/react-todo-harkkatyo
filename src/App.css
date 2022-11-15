@@ -1,19 +1,33 @@
+ul div {
+  display: inline-block;
+  margin: 2%;
+  align-items: center;
+}
+nav {
+  text-align: center;
+  background-color: #61dafb;
+}
+
 .my-component {
-  background-color: #282c34;
+  background-color: #438802;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myDiv {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.picture {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 51, 102, 255);
 }
 
 .App-header {

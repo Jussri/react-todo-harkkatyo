@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-
+import "./App.css";
 const fooBar = ["foo", "bar"];
 
 function Foo() {
@@ -19,6 +19,10 @@ function Foo() {
     setMediaItem(fooBar[index]); // <-- update media state when index updates
   }, [index]);
 
-  return <div>{mediaItem}</div>;
+  return (
+    <div className="myDiv">
+      <div>{mediaItem}</div>
+    </div>
+  );
 }
 export default Foo;
