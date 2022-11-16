@@ -4,19 +4,19 @@ import "./App.css";
 const fooBar = ["foo", "bar"];
 
 function Foo() {
-  const [mediaItem, setMediaItem] = useState(fooBar[0]); // <-- seed initial state
+  const [mediaItem, setMediaItem] = useState(fooBar[0]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const timerId = setInterval(
-      () => setIndex((i) => (i + 1) % fooBar.length), // <-- increment index
+      () => setIndex((i) => (i + 1) % fooBar.length),
       2000
     );
     return () => clearInterval(timerId);
   }, []);
 
   useEffect(() => {
-    setMediaItem(fooBar[index]); // <-- update media state when index updates
+    setMediaItem(fooBar[index]);
   }, [index]);
 
   return (
