@@ -3,7 +3,6 @@ import React from "react";
 
 function AddContextForm(props) {
   const { updateContextList } = props;
-
   const url = "http://localhost:3010/context";
   const [newContext, setNewContext] = useState({
     context: "",
@@ -40,7 +39,7 @@ function AddContextForm(props) {
     addContext(newContext);
   };
 
-  //Return context -form
+  //Return context form
   return (
     <form onSubmit={submitContext} className="add-form">
       <br />

@@ -44,7 +44,7 @@ function CreateTaskForm(props) {
     addTask(newTask);
   };
 
-  //Toggle context into task
+  //Choosing context for new task
   const toggleContext = (event) => {
     let newContext = newTask.context;
     if (newContext.includes(event.target.value)) {
@@ -60,7 +60,7 @@ function CreateTaskForm(props) {
     });
   };
 
-  //Return task -form
+  //Return task form
   return (
     <form onSubmit={submitTask} className="add-form">
       <br />

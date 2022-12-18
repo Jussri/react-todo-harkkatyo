@@ -18,7 +18,7 @@ function Task(props) {
       });
   };
 
-  //Edit tasks/context
+  //Editing and updating tasks
   const saveEditing = async (id) => {
     fetch(url + "/" + id, {
       method: "PUT",
@@ -43,6 +43,7 @@ function Task(props) {
     setEditing(false);
   };
 
+  //Choosing context for task
   const toggleContext = (event) => {
     if (newContext.includes(event.target.value)) {
       setNewContext((newContext) =>
@@ -53,6 +54,7 @@ function Task(props) {
     }
   };
 
+  //Return editing form for selected tasks
   return (
     <tr key={task.id}>
       {editing ? (

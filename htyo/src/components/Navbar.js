@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 
 function Navbar() {
+  //Return links in navbar
   return (
     <nav>
       <ul>

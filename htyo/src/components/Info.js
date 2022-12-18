@@ -12,11 +12,11 @@ function Info() {
       </p>
       <p>
         Tasklist sivulla voidaan "add task" formilla luoda tehtävä ja valita
-        alla olevasta checkboxista siihen sopivan konteksin.
+        alla olevasta checkboxista siihen sopivan kontekstin.
       </p>
       <p>
         Listaa voi muokata poistamalla taskeja tai nimeämällä niitä uudestaan ja
-        vaihtamalla niihin sopivan konteksteja.
+        vaihtamalla niihin sopivia konteksteja.
       </p>
       <p>
         Contextlist sivulla on mahdollista luoda uusia konteksteja, jotka
