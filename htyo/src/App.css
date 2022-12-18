@@ -1,0 +1,81 @@
+ul div {
+  display: inline-block;
+  margin: 2%;
+  align-items: center;
+}
+nav {
+  text-align: center;
+  background-color: #61dafb;
+}
+
+.my-component {
+  background-color: #438802;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myDiv {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: aqua;
+}
+
+.tasklist {
+  display: block;
+  text-align: center;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contextlist {
+  display: block;
+  text-align: center;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.contextlist ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.info {
+  display: block;
+  text-align: center;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+
+.App-header {
+  background-color: #282c34;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
